@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Days+One');
+
+body {
+    font-family: Futura;
+    text-align: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-image: url('https://c1.staticflickr.com/5/4458/36873938043_750c768156_o.jpg');
+    background-attachment: fixed;
+    font-weight: normal;
+    width: 90%;
+}
+
+.header h1 {
+    color: red;
+    padding: 20px 35px;
+    font-size: 40px;
+    background-color: silver;
+    display: inline-block;
+    position: fixed;
+    text-transform: lowercase;
+    width: 35%;
+    text-align: center;
+    float: left;
+    left: 0;
+    z-index: 2;
+    letter-spacing: 0.05em;
+    font-family: Days One;
+}
+
+.header h2 {
+    color: darkred;
+    position: absolute;
+    left: 70px;
+    padding-top: 150px;
+    font-style: italic;
+    z-index: 1;
+}
+
+.event h2 {
+    font-size: 20px;
+    position: relative;
+    left: 40px;
+    top: 400px;
+    width: 400px;
+    height: 30px;
+}
+
+.times {
+    position: relative;
+    left: 40px;
+    top: 450px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.tickets {
+    position: relative;
+    left: 40px;
+    top: 500px;
+    font-size: 20px;
+}
+
+.contact {
+    position: relative;
+    left: 40px;
+    top: 525px;
+    font-size: 15px;
+    padding-bottom: 40px;
+    line-height: 20px;
+}
