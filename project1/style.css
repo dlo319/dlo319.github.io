@@ -3,16 +3,19 @@
 body {
     font-family: 'PT Sans', sans-serif;
     background-color: dodgerblue;
-    position: relative;
-    top: 75px;
-    left: 50px;
+    background-image: url("bullets.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 100px;
+    margin-top: 100px;
 }
 
 .event h1 {font-family: Univers; 
     text-transform: uppercase;
     font-weight: 900;
     font-size: 125px;
-    color: ghostwhite;
+    color: yellow;
 }
 
 .event h2 {font-family: Univers;
@@ -27,7 +30,7 @@ body {
     color: ghostwhite;
 }
 
-.contact {margin-top: 25px;
+.contact {margin-top: 50px;
     font-size: 30px;
 }
 
@@ -35,28 +38,49 @@ body {
     font-size: 30px;
 }
 
+.website h3 {font-weight: bold;
+}
+
 #hotline {font-weight: bold;
 }
 
 hr {color: ghostwhite;
     margin-top: 100px;
-    width: 500px;
+    width: 1100px;
     float: left;
 }
 
-.people {margin-top: 100px;
-    clear: left;
-    position: relative;
-    top: 50px;
-    font-size: 25px;
+section {clear: both;
+    padding-bottom: 100px;
+    overflow: hidden;
+}
+
+.directed {padding-top: 100px;
+    width: 250px;
+    float: left;
+}
+
+.written {width: 250px;
+    padding-top: 100px;
+    display: inline-block;
+    float: left;
+}
+
+.produced {width: 350px;
+    float: left;
+    padding-top: 100px;
+}
+
+.cast {width: 250px;
+    float: left;
+    padding-top: 100px;
 }
 
 h4 {font-weight: bolder;
 }
 
-img {float: right;
-    position: relative;
-    bottom: 750px;
-    height: 1200px;
+.directed, .written, .produced, .cast {font-size: 30px;
+    color: ghostwhite;
 }
+
 
