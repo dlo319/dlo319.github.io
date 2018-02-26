@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans');
+
+body {
+    font-family: 'PT Sans', sans-serif;
+    background-color: dodgerblue;
+    position: relative;
+    top: 75px;
+    left: 50px;
+}
+
+.event h1 {font-family: Univers; 
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 125px;
+    color: ghostwhite;
+}
+
+.event h2 {font-family: Univers;
+    font-weight: 100;
+    font-size: 75px;
+    margin-top: 50px;
+}
+
+.date {margin-top: 85px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: ghostwhite;
+}
+
+.contact {margin-top: 25px;
+    font-size: 30px;
+}
+
+.website {margin-top: 25px;
+    font-size: 30px;
+}
+
+#hotline {font-weight: bold;
+}
+
+hr {color: ghostwhite;
+    margin-top: 100px;
+    width: 500px;
+    float: left;
+}
+
+.people {margin-top: 100px;
+    clear: left;
+    position: relative;
+    top: 50px;
+    font-size: 25px;
+}
+
+h4 {font-weight: bolder;
+}
+
+img {float: right;
+    position: relative;
+    bottom: 750px;
+    height: 1200px;
+}
+
