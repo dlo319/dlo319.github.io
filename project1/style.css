@@ -3,11 +3,13 @@
 body {
     font-family: 'PT Sans', sans-serif;
     background-color: dodgerblue;
-    background-image: url("bullets.png");
-    background-position: top right;
-    background-repeat: no-repeat;
     margin-left: 100px;
-    margin-top: 80px;
+    margin-top: 90px;
+}
+
+.image {float: right;
+    position: relative;
+    margin-top: -595px;
 }
 
 .event h1 {font-family: Univers; 
@@ -15,15 +17,17 @@ body {
     font-weight: 900;
     font-size: 125px;
     color: yellow;
+    width: 600px;
+    clear: right;
 }
 
 .event h2 {font-family: Univers;
     font-weight: 100;
     font-size: 75px;
-    margin-top: 60px;
+    margin-top: 70px;
 }
 
-.date {margin-top: 85px;
+.date {margin-top: 95px;
     font-size: 50px;
     font-weight: bolder;
     color: ghostwhite;
@@ -45,7 +49,7 @@ body {
 
 hr {color: ghostwhite;
     margin-top: 100px;
-    width: 1100px;
+    width: 1050px;
     float: left;
 }
 
