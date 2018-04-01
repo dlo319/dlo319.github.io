@@ -1,0 +1,28 @@
+# Coffee Hall Content
+
+## Hero  
+Coffee Hall is a place for the coffee community.
+
+## Your neighborhood. Your coffee.
+Welcome to Coffee Hall, your neighborhood coffee shop and cafe where the service is friendly and the menu is diverse. Whether you’re vegan, gluten-free, paleo or a true carnivore, you’re sure to find something delicious to suit your palate. We also have a full coffee bar featuring organic espresso and a wide variety of organic loose leaf teas. Some say our cold brew is the best in town.
+
+### About
+Donec nec augue nec lorem pellentesque luctus vel id purus. Nulla lectus magna, pretium sit amet fringilla at, rhoncus at nisi.
+
+### Visit
+Donec nec augue nec lorem pellentesque luctus vel id purus. Nulla lectus magna, pretium sit amet fringilla at, rhoncus at nisi.
+
+### Events
+Donec nec augue nec lorem pellentesque luctus vel id purus. Nulla lectus magna, pretium sit amet fringilla at, rhoncus at nisi.
+
+### Shop
+Donec nec augue nec lorem pellentesque luctus vel id purus. Nulla lectus magna, pretium sit amet fringilla at, rhoncus at nisi.
+
+---
+
+## Come check us out
+Visit
+
+---
+970 North Broadway Suite 105, Los Angeles CA
+hello@coffeehall.com
