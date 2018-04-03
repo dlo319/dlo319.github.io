@@ -1,0 +1,116 @@
+body {
+    font-family: Univers;
+}
+
+section.titlepage {
+    height: 653px;
+    color: white;
+    background-color: rgb(83,79,78);
+    text-align: center;
+    font-size: 14px;
+}
+
+.logotype {
+    padding-top: 275px;
+}
+
+.titlepage h5 {
+    padding-top: 175px;
+}
+
+.arrow {
+    padding-top: 25px;
+}
+
+.header {
+    padding-top: 75px;
+    padding-left: 75px;
+    float: left;
+}
+
+.nav {
+    text-align: right;
+    position: sticky;
+    top: 0;
+    z-index: -1;
+}
+
+.work {
+    padding-top: 125px;
+    padding-right: 268px;
+    padding-bottom: 25px;
+    text-decoration: line-through;
+    text-align: right;
+}
+
+.nav p {
+    font-size: 14px;
+    padding-right: 268px;
+    line-height: 1.3em;
+}
+
+.selectedworks, .contact {
+    padding-top: 25px;
+}
+
+.about {
+    padding-top: 50px;
+}
+
+.work, .about, .contact {
+    font-size: 16px;
+}
+
+.about, .contact {
+    padding-right: 75px;
+}
+
+.runner img {
+    margin-left: 75px;
+    margin-top: -50px;
+    border: solid 1px;
+}
+
+.geometric img {
+    margin-top: -100px;
+    margin-left: 460px;
+    border: solid 1px;
+}
+
+.interstitial img {
+    margin-left: 267.5px;
+    margin-top: 40px;
+}
+
+.rkeditorial img {
+    margin-left: 363.772px;
+    margin-top: 40px;
+}
+
+.clockwork img {
+    margin-left: 75px;
+    margin-top: -100px;
+}
+
+.rediscover img {
+    margin-left: 460px;
+    margin-top: -185.549px;
+}
+
+.transients img {
+    margin-left: 75px;
+    margin-top: -100px;
+    border: solid 1px;
+}
+
+.virtues {
+    margin-left: 171.25px;
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+
+$(".arrow").click(function() {
+    $('html,body').animate({
+        scrollTop: $(".header").offset().top},
+        'slow');
+});
