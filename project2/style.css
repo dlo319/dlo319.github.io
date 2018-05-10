@@ -3,7 +3,8 @@ body {
 }
 
 section.titlepage {
-    height: 653px;
+    width: 100vw;
+    height: 100vh;
     color: white;
     background-color: rgb(83,79,78);
     text-align: center;
@@ -28,83 +29,140 @@ section.titlepage {
     float: left;
 }
 
-.nav {
+nav {
     text-align: right;
     position: sticky;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
     top: 0;
-    z-index: -1;
+    padding-top: 50px;
 }
 
 .work {
-    padding-top: 125px;
-    padding-right: 268px;
-    padding-bottom: 25px;
-    text-decoration: line-through;
+    padding-top: 50px;
+    padding-right: 250px;
     text-align: right;
 }
 
-.nav p {
+.work h4 {
+    text-decoration: line-through;
+    padding-right: 25px;
+    text-align: right;
+    
+}
+
+nav p {
     font-size: 14px;
-    padding-right: 268px;
+    padding-right: 25px;
     line-height: 1.3em;
+    text-align: right;
 }
 
-.selectedworks, .contact {
+.contact {
     padding-top: 25px;
-}
-
-.about {
-    padding-top: 50px;
 }
 
 .work, .about, .contact {
     font-size: 16px;
 }
 
-.about, .contact {
-    padding-right: 75px;
-}
-
-.runner img {
+.runner-image img {
     margin-left: 75px;
-    margin-top: -50px;
+    margin-top: -150px;
     border: solid 1px;
+    border-color: black;
+    box-sizing: border-box;
 }
 
-.geometric img {
-    margin-top: -100px;
+.geometric-image img {
+    margin-top: -150px;
     margin-left: 460px;
     border: solid 1px;
 }
 
-.interstitial img {
+.interstitial-image img {
     margin-left: 267.5px;
     margin-top: 40px;
 }
 
-.rkeditorial img {
+.editorial-image img {
     margin-left: 363.772px;
     margin-top: 40px;
 }
 
-.clockwork img {
+.clockwork-image img {
     margin-left: 75px;
     margin-top: -100px;
 }
 
-.rediscover img {
+.rediscover-image img {
     margin-left: 460px;
     margin-top: -185.549px;
 }
 
-.transients img {
+.transients-image img {
     margin-left: 75px;
     margin-top: -100px;
     border: solid 1px;
 }
 
-.virtues {
+.virtues-image {
     margin-left: 171.25px;
     margin-top: 40px;
     margin-bottom: 200px;
+}
+
+.nav {
+    clear: all;
+    padding-left: 700px;
+}
+
+.about a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: blue;
+}
+
+.runner-active {
+    color: blue;
+}
+
+.bio {
+    text-align: left;
+    margin-left: 150px;
+    margin-right: 600px;
+    margin-top: 150px;
+}
+
+.bio h1 {font-size: 30px;
+    text-transform: lowercase;
+    padding-bottom: 30px;
+    font-weight: 900;
+}
+
+.about, .contact {
+    margin-right: 150px;
+}
+
+.about {
+  padding-top: 50px;
+}
+
+.bio p {line-height: 1.4em;
+    font-size: 15px;
+}
+
+.projects {
+    position: relative;
+}
+
+.images {
+    padding-top: 100px;
+    width: 800px;
+    position: relative;
 }

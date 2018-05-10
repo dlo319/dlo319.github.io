@@ -6,13 +6,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" />
     <link rel="stylesheet" href="style.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script type="text/javascript">$(".arrow").click(function(e) {
-    e.preventDefault();
-    $('html,body').animate({
-        scrollTop: $(".header").offset().top},
-        'slow');
-    });
-}</script>
   </head>
   <body>
     <section class="titlepage">
@@ -21,56 +14,67 @@
       </div>
       <h5>work.me</h5>
       <div class="arrow">
-        <img src="arrow.png">
+          <a href="#header"><img src="arrow.png"></a>
       </div>
     </section>
-    <section class="header">
+      
+    <section class="projects">
+      <div class="header" id="header">
       <img src="dlo_black.png" width=71.25px height=24.75px>
-    </section>
-    <section class="nav">
+      </div>
+    <nav>
       <div class="work">
-        <h4>work.me</h4>
+          <h4>work.me</h4>
       </div>
-        <p class="koreatownrunner">koreatown runner</p>
-        <p>rem koolhaas editorial</p>
-        <p>geometric impulse</p>
-        <p>clockwork</p>
-        <p>interstitial</p>
-        <p>transients</p>
-        <p>re/discover<p>
-        <p>virtues in a bottle</p>
-      <div class="about">
-          <h4>about.me</h4>
+      <div class="selected work">
+        <p class="runner">koreatown runner</p>
+        <p class="editorial">rem koolhaas editorial</p>
+        <p class="geometric">geometric impulse</p>
+        <p class="clockwork">clockwork</p>
+        <p class="interstitial">interstitial</p>
+        <p class="transients">transients</p>
+        <p class="rediscover">re/discover<p>
+        <p class="virtues">virtues in a bottle</p>
       </div>
-      <div class="contact">
+      <div class="nav">
+        <div class="about">
+          <h4><a href="about.html">about.me</a></h4>
+        </div>
+        <div class="contact">
           <h4>contact.me</h4>
+        </div>
       </div>
-    </section>
-    <section class="images">
-      <div class="runner">
-        <a href="runner.html"><img src="runner.jpg" width=360.25px height=267.797px></a>
+    </nav>
+      
+    <div class="images">
+      <div class="runner-image">
+        <a href="runner.html"> <img src="runner.jpg" width=360.25px height=267.797px></a>
       </div>
-      <div class="geometric">
+      <div class="geometric-image">
         <img src="geometric.jpg" width=263.75 px width="347.462">
       </div>
-      <div class="interstitial">
+      <div class="interstitial-image">
         <img src="interstitial.jpg" width=360px height=202.389px>
       </div>
-      <div class="rkeditorial">
+      <div class="editorial-image">
         <img src="rkeditorial.jpg" width=360px height=274.576px>
       </div>
-      <div class="clockwork">
+      <div class="clockwork-image">
         <img src="clockwork.jpg" width=263.75px height="316.289px">
       </div>
-      <div class="rediscover">
+      <div class="rediscover-image">
         <img src="rediscover.jpg" width=263.75 height=395.625px>
       </div>
-      <div class="transients">
+      <div class="transients-image">
         <img src="transients.jpg" width=360.25px height=299.083px>
       </div>
-      <div class="virtues">
+      <div class="virtues-image">
         <img src="virtues.jpg" width=360px height=450px>
       </div>
+    </div>
     </section>
+
+      <script type="text/javascript" src="/my.js"></script>
+      
   </body>
 </html>
